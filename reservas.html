@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Pensao Paulo Reservas</title>
+  <link rel="icon" href="img/favicon.ico">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+
+  <!-- Google Font -->
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic' rel='stylesheet' type='text/css'>
+
+  <!--[if IE 9]>
+    <script src="js/media.match.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<!-- Start Main-Wrapper -->
+<div id="main-wrapper">
+  
+	<!-- Start Header -->
+	<header id="header">
+		<div class="header-navi">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" id="bs-example-navbar-collapse-1">
+						<div class="row">
+							<ul class="nav navbar-nav main-nav pull-right text-right">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="servicos.html">Serviços</a></li>
+								<li><a href="galeria.html">Galeria</a></li>
+								<li><a href="satisfacao.html">Satisfação</a></li>
+								<li class="active"><a href="reservas.html">Reservas</a></li>
+								<li><a href="contactos.html">Contactos</a></li>
+								<li><div id="google_translate_element"></div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Header-Toggle -->
+	<div id="header-toggle">
+		<i class="fa fa-bars"></i>
+	</div>
+	<!-- End Header-Toggle -->
+
+	<!-- Start Header-Logo -->
+	<div class="header-logo visible-lg visible-md">
+		<div class="header-logo-inner">
+			<div class="css-table">
+				<div class="css-table-cell">
+					<a href="index.html">
+						<img src="img/logo.png" alt="" class="img-responsive center-block">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-logo header-logo2 hidden-lg hidden-md">
+		<div class="header-logo-inner2">
+			<div class="css-table">
+				<div class="css-table-cell">
+					<a href="index.html">
+						<img src="img/logo.png" alt="" class="img-responsive center-block">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Header-Logo -->
+	
+	<!-- Start Header-Section -->
+	<section class="header-section contact">
+	</section>
+	<!-- End Header-Section -->
+
+	<!-- Start Reservas -->
+    <section class="supertabs" id="reservas">
+        <div class="container">
+            <div class="row">
+				<div class="preamble col-lg-12">
+					<h3>Pedido de Reserva</h3>
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-horizontal" action="process_reservation.php" name="reserva" method="post" autocomplete="off" role="form" style="border: #90918F 1px solid; padding: 15px 15px">
+						<div class="form-group">
+							<label for="name" class="col-sm-2 control-label" style="text-align: left">Nome <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="name" name="name" placeholder="" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="telephone" class="col-sm-2 control-label" style="text-align: left">Telefone <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-6">
+								<input type="tel" class="form-control" id="telefone" name="telephone" placeholder="" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email" class="col-sm-2 control-label" style="text-align: left">Email <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" id="email" name="email" placeholder="" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="address" class="col-sm-2 control-label" style="text-align: left">Endereço <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="address" name="address" placeholder="" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="nationality" class="col-sm-2 control-label" style="text-align: left">Nacionalidade</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="nationality" name="nationality" placeholder="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="doc_num" class="col-sm-2 control-label" style="text-align: left">Nº de documento <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="doc_num" name="doc_num" placeholder="" required="required">
+								<p class="help-block">Pode indicar o nº de BI ou de Passaporte</p>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="mot_viagem" class="col-sm-2 control-label" style="text-align: left">Motivo da Viagem</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="travel_motive" name="travel_motive" placeholder="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="extra_beds" class="col-sm-2 control-label" style="text-align: left">Nº de camas extra</label>
+							<div class="col-sm-6">
+								<input type="number" class="form-control" id="extra_beds" name="extra_beds" placeholder="">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="Check-in" class="col-sm-2 control-label" style="text-align: left">Data Chegada <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-3">
+								<input type="date" class="form-control" id="Check-in" name="Check-in" placeholder="Data Chegada" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="Check-out" class="col-sm-2 control-label" style="text-align: left">Data Partida <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-3">
+								<input type="date" class="form-control" id="Check-out" name="Check-out" placeholder="Data Partida" required="required">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="room_type" class="col-sm-2 control-label" style="text-align: left">Quartos <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-3">
+								<select class="form-control" id="room_type" name="room_type" required="required">
+									<option disabled selected value> Selecione uma opção </option>
+									<option>Individual</option>
+									<option>Duplo</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="adults" class="col-sm-2 control-label" style="text-align: left">Adultos <span style="color: #CC0000">*</span></label>
+							<div class="col-sm-3">
+								<select class="form-control" id="adults" name="adults" required="required">
+									<option disabled selected value> Selecione uma opção </option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="msg" class="col-sm-2 control-label" style="text-align: left">Informações adicionais</label>
+							<div class="col-sm-5">
+								<textarea class="form-control" id="msg" name="msg" rows="4" placeholder=""></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<p style="color: #CC0000">*Campos de preenchimento obrigatório.</p>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button class="btn btn-transparent-gray" type="submit">Reservar</button>
+							</div>
+						</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- End Reservas -->
+
+	<!-- Start Footer -->
+	<footer id="footer">
+		<!-- Start Footer-Copyrights -->
+		<div class="footer-copyrights">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<p>Copyright © eTourism Project by <a href="#">Prime Consulting</a>.</p>
+				<p><a href="#">Termos</a>&nbsp . &nbsp <a href="#">Privacidade</a></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!-- End Footer-Copyrights -->
+	</footer>
+	<!-- End Footer -->
+
+</div>
+<!-- End Main-Wrapper -->
+
+
+<!-- Scripts -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<script src="js/gmap3.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/jquery.ba-outside-events.min.js"></script>
+<script src="js/jquery.vide.min.js"></script>
+<script src="js/tab.js"></script>
+<script src="js/transition.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<!-- Google Translate -->
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style type="text/css">
+	div#google_translate_element div.goog-te-gadget-simple{background-color: transparent; border: transparent;}
+	div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color:#333333}
+</style>
+<script>
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({
+		pageLanguage: 'pt',
+		includedLanguages: 'ar,de,en,es,fr,it,ja,ms,nl,pl,pt,ru,tr,zh-CN,zh-TW',
+		layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+	  }, 'google_translate_element');
+	}
+	
+	/*$(document).ready(function(){
+		$('#google_translate_element').bind('DOMNodeInserted', function(event) {
+		  $('.goog-te-menu-value span:first').html('Translate');
+		  $('.goog-te-menu-frame.skiptranslate').load(function(){
+			setTimeout(function(){
+			  $('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('Translate');    
+			}, 100);
+		  });
+		});
+	});*/
+</script>
+</body>
+
+</html>
